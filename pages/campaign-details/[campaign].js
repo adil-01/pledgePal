@@ -4,7 +4,7 @@ import { useStateContext } from '../../context';
 import { ethers } from 'ethers';
 import { calculateBarPercentage } from '../../utils';
 import SideBar from '../../components/sideBar'; 
-import styles from "../../styles/Details.module.css";
+import styles from "../../styles/details.module.css";
 import Loader from '../../components/Loader';
 import Toast from '../../components/Toast';
 

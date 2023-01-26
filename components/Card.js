@@ -1,6 +1,6 @@
 
 import { daysLeft } from '../utils';
-import styles from "../styles/Card.module.css";
+import styles from "../styles/card.module.css";
 
 const Card = ({ owner, title, description, target, deadline, amountCollected, imageUrl, handleClick }) => {
     const remainingDays = daysLeft(deadline);

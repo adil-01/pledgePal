@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../styles/Formfield.module.css";
+import styles from "../styles/formfield.module.css";
 
 const FormField = ({ labelName, placeholder, inputType, isTextArea, value, handleChange }) => {
   return (

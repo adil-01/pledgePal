@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from "../styles/Create-campaign.module.css";
+import styles from "../styles/create-campaign.module.css";
 import SideBar from '../components/sideBar'; 
 import FormField from '../components/formField'; 
 import Loader from '../components/Loader';
