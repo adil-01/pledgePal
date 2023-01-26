@@ -1,0 +1,92 @@
+.card_wrap{
+    width: 300px;
+    border-radius: 15px;
+    background-color: #1c1c24;
+    cursor: pointer;
+}
+
+.thumb{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card_details{
+    display: flex;
+    flex-direction: column;
+    padding: 13px 20px;
+}
+
+.card_text{
+    display: block;
+}
+
+.card_heading{
+    text-align: left;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0
+}
+
+.card_para{
+    color: #808191;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.amount_wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    gap: 2px;
+}
+
+.amount{
+    font-size: 16px;
+    color: #b2b3bd;
+    font-weight: bold;
+}
+
+.amount_text{
+    margin-top: 3px;
+    font-size: 14px;
+    color: #808191;
+}
+
+.user_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.account_wrap{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #13131a;
+    margin-top: 5px;
+}
+
+.account_img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.acc_text{
+    color: #b2b3bd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
