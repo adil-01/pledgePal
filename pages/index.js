@@ -2,7 +2,7 @@ import { ConnectWallet } from "@thirdweb-dev/react";
 import { useState, useEffect } from "react";
 import { useStateContext } from "../context";
 import { slugify } from '../utils';
-import styles from "../styles/home.module.css";
+import styles from "../styles/Home.module.css";
 import SideBar from '../components/sideBar'; 
 import NavBar from '../components/navBar'; 
 import Card from '../components/Card'; 

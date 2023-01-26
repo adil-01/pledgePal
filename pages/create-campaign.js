@@ -1,13 +1,10 @@
-import { ConnectWallet } from "@thirdweb-dev/react";
 import { useState } from 'react';
-import styles from "../styles/create-campaign.module.css";
+import styles from "../styles/Create-campaign.module.css";
 import SideBar from '../components/sideBar'; 
-import NavBar from '../components/navBar'; 
 import FormField from '../components/formField'; 
 import Loader from '../components/Loader';
 import { ethers } from 'ethers';
 import { checkIfImage } from '../utils';
-import Link from 'next/link';
 import { useRouter } from "next/router";
 import { useStateContext } from '../context';
 
@@ -125,10 +122,6 @@ export default function CreateCampaign() {
 
                 </form>
             </div>
-
-        {/* <div className={styles.connect}>
-            <ConnectWallet />
-        </div> */}
         </div>
     );
 }

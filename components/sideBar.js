@@ -1,4 +1,4 @@
-import styles from "../styles/sidebar.module.css";
+import styles from "../styles/Sidebar.module.css";
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from "next/router";

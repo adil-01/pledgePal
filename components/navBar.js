@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from "next/router";
-import styles from "../styles/navbar.module.css";
+import styles from "../styles/Navbar.module.css";
 import { useStateContext } from '../context';
 
 export default function NavBar() {
